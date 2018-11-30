@@ -11,7 +11,7 @@ New-ADOrganizationalUnit -Name JQ_Computers -Path "DC=AD,DC=jkquansa,DC=lan" -De
   New-ADOrganizationalUnit -Name Sales -Path "OU=Workstations,OU=JQ_Computers,DC=AD,DC=jkquansa,DC=lan"
   New-ADOrganizationalUnit -Name Legal -Path "OU=Workstations,OU=JQ_Computers,DC=AD,DC=jkquansa,DC=lan"
   New-ADOrganizationalUnit -Name IT -Path "OU=Workstations,OU=JQ_Computers,DC=AD,DC=jkquansa,DC=lan"
- New-ADOrganizationalUnit -Name Servers -Path "OU=ST_Computers,DC=AD,DC=sparky-tech,DC=com"
+ New-ADOrganizationalUnit -Name Servers -Path "OU=JQ_Computers,DC=AD,DC=jkquansa,DC=lan"
   New-ADOrganizationalUnit -Name Hyper-V -Path "OU=Servers,OU=JQ_Computers,DC=AD,DC=jkquansa,DC=lan"
   New-ADOrganizationalUnit -Name Exchange -Path "OU=Servers,OU=JQ_Computers,DC=AD,DC=jkquansa,DC=lan"
 New-ADOrganizationalUnit -Name ST_Groups -Path "DC=AD,DC=jkquansa,DC=lan" -Description "High Level Security Groups"
