@@ -31,3 +31,4 @@ New-ADGroup -GroupCategory Security -GroupScope Global -Name IT -Path "OU=JQ_Gro
 New-ADGroup -GroupCategory Security -GroupScope Global -Name Leadership -Path "OU=JQ_Groups,DC=AD,DC=jkquansa,DC=lan"
 Write-Host -ForegroundColor yellow "Done creating groups"
 Write-Host -ForegroundColor yellow "" 
+ 
